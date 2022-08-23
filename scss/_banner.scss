@@ -1,0 +1,33 @@
+.banner{
+    height: 774px;
+    width: 100%;
+    background-image: url('/images/mask.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    .content{
+        padding-top: 179px;
+        padding-right: 140px;
+    }
+    h1{
+        font-weight: 800;
+        font-size: 50px;
+        line-height: 60px;
+        max-width: 513px;
+        color: #2D1D61;
+        letter-spacing: 0.5px;
+    }
+    p{
+        margin-top: 40px;
+        max-width:473px;
+        font-size: 18px;
+        font-weight: 400;
+        color: #363049;
+        opacity: 0.8;
+        letter-spacing: 0.3px;
+        line-height: 25px;
+    }
+    a{
+        display: inline-block;
+        margin-top: 60px;
+    }
+}

@@ -1,0 +1,27 @@
+.header{
+    padding: 55px 0;
+    width: 100%;
+    min-width: 730px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    .imgBox{
+        display: block;
+        width: 106px;
+        height: 17px;
+    }
+    .nav{
+        margin-left: auto;
+        ul{
+            display: flex;
+            li{
+                margin-left: 20px;
+                a{
+                    font-size: 14px;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+
+}

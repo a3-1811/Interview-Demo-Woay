@@ -1,0 +1,41 @@
+.feature2{
+        padding-top: 79px;
+        height: 525px;
+        background-image: url('/images/mask_feature02.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        .content{
+            display: flex;
+            align-items: center;
+            gap: 0 118px;
+            max-width: 1259px;
+            .imgBox{
+                width: 568px;
+                height: 376px;
+            }
+            .text{
+                width: 578px;
+                height: 191px;
+                h2{
+                    font-weight: 700;
+                    font-size: 36px;
+                    line-height: 46.5px;
+                    color: #2D1D61;
+                }
+                p{
+                    font-weight: 400;
+                    font-style: 16px;
+                    line-height: 24px;
+                    letter-spacing: 0.1px;
+                    margin-top: 20px;
+                    color: #363049;
+                    opacity: 0.8;
+                }
+            }
+    }
+}
+.feature03{
+    background-image: url('/images/mask_feature03.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

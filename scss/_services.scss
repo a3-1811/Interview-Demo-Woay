@@ -1,0 +1,45 @@
+.services{
+    height: 628px;
+    width: 100%;
+    background-image: url('/images/mask_group.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    .list-services{
+        margin-top: 166px;
+        display: flex;
+        align-items: center;
+        gap: 0 30px;
+        width: 100%;
+        &__item{
+            width: 358px;
+            height: 400px;
+            border: 1px solid #F3F4FE;
+            border-radius: 10px;
+            background: #fff;
+            box-shadow: 0px 50px 115px rgba(165, 153, 209, 0.3);
+            padding-left: 30px;
+            padding-right: 24px;
+            .imgBox{
+                display: block;
+                width: 97px;
+                height: 90px;
+                margin-top: 68px;
+            }
+            h3{
+                width: 285px;
+                color: #352B53;
+                font-weight: 600;
+                font-size: 18px;
+                margin-top: 51px;
+            }
+            p{
+                margin-top: 30px;
+                width: 300px;
+                font-size: 14px;
+                letter-spacing: 0.3px;
+                color: #363049;
+                line-height: 19.63px;
+            }
+        }
+    }
+}
